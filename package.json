@@ -1,0 +1,33 @@
+{
+  "name": "json-inspector",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p",
+    "playground": "node playground/server.js"
+  },
+  "keywords": [
+    "json",
+    "viewer",
+    "json",
+    "inspector"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.3.2"
+  },
+  "dependencies": {
+    "hapi": "^16.1.1",
+    "inert": "^4.1.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
